@@ -1,0 +1,16 @@
+# use cron to run specific tasks following schedule.
+
+#crontab -l will allow us to view crontab entries of current users
+
+# for example
+
+# 0 2 * * * /bin/sh backup.sh
+
+# Our databasewill be backedup at 2am daily,  * * * for all matching records
+
+#Another example
+
+# 0 5,17 * * * /scripts/script.sh
+
+# At 5am and 5pm daily, separated by commas, will be executed.
+

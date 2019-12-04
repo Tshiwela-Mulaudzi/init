@@ -1,0 +1,3 @@
+dpkg-query -l
+
+# On debian

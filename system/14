@@ -1,0 +1,3 @@
+tail -f /var/log/syslog &i
+
+# The '&' specifies in the background part

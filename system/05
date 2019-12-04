@@ -1,0 +1,2 @@
+ps -ef | grep sshd
+# current processes shown nga ps -f, then we grep-ed just the sshd 
