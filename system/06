@@ -1,1 +1,3 @@
-sudo service ssh restart
+service ssh restart
+
+#Still inside our container
