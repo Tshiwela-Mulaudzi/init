@@ -1,0 +1,8 @@
+# Here I am supp to modify /etc/hosts and map 46.19.122.85 to intra, it would now look like.
+
+10.210.41.9       cdn.intra.42.fr
+10.215.1.19       norminette.42.fr
+255.255.255.255   broadcasthost
+46.19.122.85	  intra.42.fr
+127.0.0.1         localhost
+::1               localhost

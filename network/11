@@ -1,0 +1,3 @@
+# After running the traceroute and the url
+# Line 1 is my local IP, line 2 is NAp(Network Address Translation), NAT makes the link, 
+# Local IP is translated into global IP address. 
