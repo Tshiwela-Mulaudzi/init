@@ -1,0 +1,8 @@
+ps -aux | grep sshd
+ 
+#process command,
+#-a if all users process information
+#display specifically for the specifies username, this case for thesshd
+#-x includse processes without controlling terminal
+#
+#Still on the container
