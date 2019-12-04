@@ -1,4 +1,4 @@
-netstat -nr | grep default | head -1 | awk '{print $2}'
+netstat -nr | grep default | head -1
 
 # -n shows address as numbers, if not symbolically.
 # -r is for routing tables. 

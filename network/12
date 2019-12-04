@@ -1,3 +1,1 @@
-ifconfig en0 | grep "inet " | awk '{print $2}'
-
-# read a bit about dhcp server, 
+ping 10.51.1.253
