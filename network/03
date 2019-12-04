@@ -1,0 +1,4 @@
+ifconfig en1 | awk '/ether/{print $2}'
+
+# Our wifi card is en1
+# $1 would print ether and so we we print $2 for the address

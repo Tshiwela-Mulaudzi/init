@@ -1,0 +1,3 @@
+nslookup slash16.org 8.8.8.8
+
+# nslookup is for querying DNS, then we provided domain name.

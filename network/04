@@ -1,0 +1,6 @@
+netstat -nr | grep default | head -1 | awk '{print $2}'
+
+# -n shows address as numbers, if not symbolically.
+# -r is for routing tables. 
+# the head part removes one line, from result table.
+#  the awk part is specifying the part we want, 2nd variable, address.

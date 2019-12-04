@@ -1,0 +1,2 @@
+ # nslookup wethinkcode.com 8.8.8.8 | grep Address | grep -v "#" | awk '{print $2}'
+65.254.227.240

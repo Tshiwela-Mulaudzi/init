@@ -1,0 +1,5 @@
+dig slash16.org | grep SERVER | awk -F '[()]' '{print $2}'
+
+# The dig part querris the url
+# Then grep prints the server part
+# We just specified the part we wanted, between those symbols are the numbers.

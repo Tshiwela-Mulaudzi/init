@@ -1,0 +1,6 @@
+cat /etc/resolv.conf
+
+# Path is /etc/resolv.conf
+
+# The results show IP address of our DNS server, We Think Code's.
+
