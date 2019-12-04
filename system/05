@@ -1,2 +1,6 @@
-ps -ef | grep sshd
-# current processes shown nga ps -f, then we grep-ed just the sshd 
+#docker run -it --rm debian /bin/bash
+#apt update
+#apt upgrade
+#apt-get install openssh-server
+#
+service ssh status
